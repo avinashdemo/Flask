@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>DSLFD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+		<link rel="stylesheet" href="css/font-awesome.min.css">	
+
+
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="dslfd">
+				<div class="p-4 pt-5">
+		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
+	        <ul class="list-unstyled components mb-5">
+	          <li class="active">
+	            <a href="#home">Home</a>
+	          </li>
+	          <li>
+              <a href="#datastoreSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Datastore</a>
+              <ul class="collapse list-unstyled" id="datastoreSubmenu">
+                <li>
+                    <a href="#">Datastore File Search</a>
+                </li>
+                <li>
+                    <a href="#">Datastore File Download</a>
+                </li>
+              </ul>
+
+		<a href="#dropzoneSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Dropzone</a>
+              <ul class="collapse list-unstyled" id="dropzoneSubmenu">
+                <li>
+                    <a href="#">Dropzone File Search</a>
+                </li>
+                <li>
+                    <a href="#">Dropzone File Download</a>
+                </li>
+              </ul>
+
+		<a href="#sftparchiveSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Sftp-archive</a>
+              <ul class="collapse list-unstyled" id="sftparchiveSubmenu">
+                <li>
+                    <a href="#">Sftp-archive File Search</a>
+                </li>
+                <li>
+                    <a href="#">Sftp-archive File Download</a>
+                </li>
+              </ul>
+
+	          </li>
+
+	      </div>
+    	</nav>
+
+
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link"><b>Developed by DSL SRE Pod</b></a>
+                </li>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <h2 class="mb-4">Welcome to DSL File Donor App</h2>
+        <p>This application provides you the feasibility of searching for any file in Datastore, Dropzone and Sftp-archive locations.</p>
+
+	<p>The respective file can also be downloaded to your local systems without login into the unix box.</p>
+
+         </div>
+		</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
